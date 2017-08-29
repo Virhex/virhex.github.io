@@ -1,0 +1,50 @@
+html {
+	height: 100%; }
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: white;
+	font-family: "Verdana"; }
+
+a {
+	text-shadow: none; }
+
+h1, h2, h3 {
+	margin: 0; }
+
+.centered {
+  position: relative;
+  margin: 0 auto;
+  text-align: center; }
+  
+#title {
+	padding: 1rem;
+	color: white;
+	font-size: 3rem;
+	color: #00aaff;
+	//background: white;
+	text-shadow: 0 0 0.2rem #00ccff; }
+	#title img {
+		display:block; // prevent extra padding
+		position: relative;
+		margin: 0 auto;
+	}
+
+#projects {
+	margin-top: 4rem; }
+
+.project {
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	padding: 10px;
+}
+	.project:hover, .project:after {
+		filter: brightness(1.25);
+	}
+	.project img {
+		width: 100%;
+	}
