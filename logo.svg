@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64.205444mm"
+   height="11.991578mm"
+   viewBox="0 0 64.205444 11.991578"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="92.900833"
+     inkscape:cy="52.807195"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g3761"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:measure-start="126.578,850.344"
+     inkscape:measure-end="134.284,850.344"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="27.74764,-57.795833"
+       orientation="0,1"
+       id="guide24"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="26.476399,-55.882773"
+       orientation="0,1"
+       id="guide26"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid32"
+       spacingx="2.0399375"
+       spacingy="2.0399375"
+       originx="-4.0798749"
+       originy="-281.75947" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.0798749,-3.249)">
+    <g
+       id="g3733">
+      <g
+         id="g3740"
+         transform="translate(1.0725548)">
+        <g
+           id="g3747"
+           transform="translate(0.31419271,0.24804687)">
+          <g
+             id="g3754"
+             transform="translate(0.65318988,1.7918907)">
+            <g
+               id="g3761">
+              <rect
+                 y="1.2090625"
+                 x="2.0399375"
+                 height="11.991578"
+                 width="64.205444"
+                 id="rect18"
+                 style="fill:#000000;stroke-width:0.11047363" />
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Infinium Guardian';-inkscape-font-specification:'Infinium Guardian';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                 x="4.0805955"
+                 y="11.15384"
+                 id="text3767"><tspan
+                   sodipodi:role="line"
+                   x="4.0805955"
+                   y="11.15384"
+                   id="tspan3765"
+                   style="stroke-width:0.26458332"><tspan
+                     x="4.0805955"
+                     y="11.15384"
+                     style="font-size:11.28888893px;fill:#ffffff;stroke-width:0.26458332"
+                     id="tspan3763">VIRHEX</tspan></tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -39,11 +39,27 @@ h1, h2, h3 {
 		position: relative;
 		margin: 0 auto;
 	}
+.row {
+	width: 600px;
+}
+.even-spacing {
+    display: flex;
+    justify-content: space-between;
+}
 .link {
-	width: 3rem;
-	height: 3rem;
+	display: inline-block;
+	width: 4rem;
+	height: 4rem;
 	border-style: none;
+}
+.link img {
+	height: 100%;
 }
 .text {
 	//text-shadow: 0 0 0.2rem #0055ff;
 	padding: 1rem; }
+#virhex {
+	margin-top: 4rem;
+	background: white;
+	padding: 1rem;
+}
