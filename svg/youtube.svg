@@ -1,0 +1,24 @@
+<svg width="152" height="107" xmlns="http://www.w3.org/2000/svg">
+ <metadata id="metadata8">image/svg+xml</metadata>
+ <defs>
+  <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
+   <path d="m-84.491992,339.876994l550.024,0l0,-255.118l-550.024,0l0,255.118z" id="path18"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="109" width="154" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="g10" transform="matrix(1.25,0,0,-1.25,0,318.8975) ">
+   <g id="g12">
+    <g id="g14" clip-path="url(#clipPath16)">
+     <g id="g20">
+      <path fill="#ffffff" fill-rule="nonzero" d="m48.651501,194.094992l0,36.446l31.562,-18.223l-31.562,-18.223zm70.353,47.464c-1.398,5.226 -5.514,9.343 -10.741,10.74c-9.474,2.539 -47.464,2.539 -47.464,2.539c0,0 -37.989,0 -47.463,-2.539c-5.227,-1.397 -9.343,-5.514 -10.74,-10.74c-2.539,-9.474 -2.539,-29.241 -2.539,-29.241c0,0 0,-19.767 2.539,-29.241c1.397,-5.226 5.513,-9.343 10.74,-10.74c9.474,-2.539 47.463,-2.539 47.463,-2.539c0,0 37.99,0 47.464,2.539c5.227,1.397 9.343,5.514 10.741,10.74c2.538,9.474 2.538,29.241 2.538,29.241c0,0 0,19.767 -2.538,29.241" id="path22"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
