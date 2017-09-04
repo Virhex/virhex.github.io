@@ -35,7 +35,7 @@ h1, h2, h3 {
 	color: #00aaff;
 	text-shadow: 0 0 0.2rem #00ccff; }
 	#title img {
-		display:block; // prevent extra padding
+		display:block; /* prevent extra padding */
 		position: relative;
 		margin: 0 auto;
 	}
