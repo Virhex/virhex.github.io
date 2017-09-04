@@ -39,6 +39,9 @@ h1, h2, h3 {
 		position: relative;
 		margin: 0 auto;
 	}
+#title img {
+	width: 60rem;
+}
 .row {
 	width: 600px;
 }
@@ -57,9 +60,13 @@ h1, h2, h3 {
 }
 .text {
 	//text-shadow: 0 0 0.2rem #0055ff;
-	padding: 1rem; }
+	padding: 0.5rem; }
 #virhex {
 	margin-top: 4rem;
 	background: white;
 	padding: 1rem;
+}
+
+.preview_img {
+	height: 5rem;
 }
