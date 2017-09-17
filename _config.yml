@@ -2,7 +2,7 @@
 title: Virhex
 email: your-email@domain.com
 description: >
-  Documentation and tutorials for modding Virhex games
+  Virhex games and documentation
 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: https://virhex.com # the base hostname & protocol for your site

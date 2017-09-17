@@ -4,6 +4,8 @@ permalink: /docs/level-editor/
 redirect_from: /docs/level-editor/index.html
 ---
 
+Welcome to the level editor's documentation.
+
 TODO:
 - views, 3D and grid
     - mousewheel to zoom

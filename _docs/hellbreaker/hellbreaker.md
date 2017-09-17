@@ -4,6 +4,8 @@ permalink: /docs/hellbreaker/
 redirect_from: /docs/hellbreaker/index.html
 ---
 
+Welcome to Hellbreaker's modding documentation.
+
 Hellbreaker uses the open source game engine Urho3D.
 [Urho3D's documentation](https://urho3d.github.io/documentation/HEAD/index.html) is relevant to Hellbreaker.
 
