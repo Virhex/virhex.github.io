@@ -1,0 +1,19 @@
+- title: Getting Started
+  docs:
+  - home
+  
+- title: Hellbreaker
+  docs:
+  - hellbreaker
+  - hellbreaker/content
+  - hellbreaker/game-editor
+  - hellbreaker/scripting
+  - hellbreaker/pickups
+  - hellbreaker/weapons
+  - hellbreaker/monsters
+  
+- title: Level Editor
+  docs:
+  - level-editor
+  - level-editor/tools
+  - level-editor/hotkeys
