@@ -55,3 +55,10 @@ When exporting geometries, make sure that `Position`, `Normal`, `UV`, and `Tange
 The `Levels` contains the level files. The game will recursively search inside it for compiled level files (`.clvl`).
 
 The [level editor]({{site.baseurl}}/docs/level-editor) is used to edit and create levels.
+
+
+## Special directories
+
+Images inside `Data\Textures\UI` will automatically have mipmapping disabled.
+
+Textures inside `Data\Textures\Level` will automatically have meterial generated for them using the [material creator]({{site.baseurl}}/docs/material-creator).

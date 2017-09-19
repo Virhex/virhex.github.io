@@ -20,10 +20,22 @@ It's executed when a level is loaded.
 
 ### The Player
 
-Damageable -> Destructible
+The `Player` class inherits from `Destructible`, which inherits from `Damageable`.
 
-Button that is triggered by damage
+`Damageable` is used for things that can take damage.
 
-TODO:
-- items inventory
-- weapons
+`Destructible` is used for things that also have health and can die.
+
+The player's node has items `Inventory` component, which you can conviniently get via `Player::getInventory()`.
+The inventory is a map from item names to item amounts. The game uses it for items like weapon ammo and door keys, and it can be used for other things.
+
+`Player` also have `WeaponSlots` instance, which contains the player's weapons.
+There are 0 to 9 available slots, and weapons that occupy the same slot are ordered by their position value.
+
+
+## Script Modules
+
+Each [ScriptInstance](https://urho3d.github.io/documentation/HEAD/class_urho3_d_1_1_script_instance.html) component's script file is a separate [script module](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_module.html).
+Modules dont share code, except things that are declared [shared](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script_shared.html), in which case it should only be defined once (don't include it several times).
+
+The scene's root node holds the `Main.as` script instance. Some `ScriptInstance`s use their own script file so they don't have to be included into `Main.as`.
