@@ -14,4 +14,5 @@ Hellbreaker uses the open source game engine Urho3D.
 #### [Scripting]({{ site.baseurl }}/docs/hellbreaker/scripting/)
 #### [Pickups]({{ site.baseurl }}/docs/hellbreaker/pickups/)
 #### [Weapons]({{ site.baseurl }}/docs/hellbreaker/weapons/)
+#### [Attacks]({{ site.baseurl }}/docs/hellbreaker/attacks/)
 #### [Monsters]({{ site.baseurl }}/docs/hellbreaker/monsters/)

@@ -10,8 +10,8 @@
   - hellbreaker/scripting
   - hellbreaker/pickups
   - hellbreaker/weapons
+  - hellbreaker/attacks
   - hellbreaker/monsters
-  - hellbreaker/projectiles
   
 - title: Level Editor
   docs:
