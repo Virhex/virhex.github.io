@@ -5,16 +5,19 @@ permalink: /docs/hellbreaker/pickups/
 
 Pickups are special objects that trigger when the player touches them.
 
-The `Pickup` base class is located at `Data/Scripts/Pickup.as`.
-Pickups classes that derive from it should be located inside the directory `Data/Scripts/Pickups/`, where you can find the pickup classes that come with the game (health, ammo, weapon, etc).
+The `Pickup` base class is defined in `Data/Scripts/Pickup.as`.
+Game pickup classes that derive from it are located at `Data/Scripts/Pickups/` (health, ammo, weapon, ...).
+
 
 ## Creating new pickups
 
-You can create new pickups with different parameters for existing behavior by creating new node objects. for that use the [game editor]({{site.baseurl}}/docs/hellbreaker/game-editor).
+##### Existing behavior
+You can create new pickups with different parameters for existing behavior by creating new node objects. For that you can use the [game editor]({{site.baseurl}}/docs/hellbreaker/game-editor).
+The node object should have a `RigidBody` component, and a `ScriptInstance` component that uses `Main.as` as the script file, and the class of the pickup you want to use. You can look at existing pickup node objects for example, they're located at `Data/Objects/Pickup/`.
 
-If you want to create a pickup with new behavior, you need to create a new script that inherits from the class `Pickup` and implements that behavior.
+##### New behavior
+If you want to create a pickup with new behavior, you need to create a new pickup class that inherits from the class `Pickup`.
 
-TODO: Make sure your new script is included
+`bool onPickup()` will be called when the player collides with the pickup. Override it and specify what will happen. Return `true` if picking up was secessful and the pickup should be removed, or `false` so it won't be removed. For example `PickupHealth` returns `false` if the player already has full health.
 
-TODO:
-- when adding a new pickup file it needs to be included into Main.as
+You need to include your new script files into `Main.as` script module, so the game will know about your classes.

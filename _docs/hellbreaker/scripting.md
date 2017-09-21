@@ -15,7 +15,7 @@ Urho3D's scripting API:
 
 ### Entry Point
 The script entry point is the Main class, which can be found in `Data/Scripts/Main.as`.
-It's executed when a level is loaded.
+The game script is executed when a level is loaded.
 
 
 ### The Player
@@ -29,13 +29,20 @@ The `Player` class inherits from `Destructible`, which inherits from `Damageable
 The player's node has items `Inventory` component, which you can conviniently get via `Player::getInventory()`.
 The inventory is a map from item names to item amounts. The game uses it for items like weapon ammo and door keys, and it can be used for other things.
 
-`Player` also have `WeaponSlots` instance, which contains the player's weapons.
+`Player` also have `WeaponSlots` member, which contains the player's weapons.
 There are 0 to 9 available slots, and weapons that occupy the same slot are ordered by their position value.
 
 
 ## Script Modules
 
-Each [ScriptInstance](https://urho3d.github.io/documentation/HEAD/class_urho3_d_1_1_script_instance.html) component's script file is a separate [script module](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_module.html).
+Each script file used by [ScriptInstance](https://urho3d.github.io/documentation/HEAD/class_urho3_d_1_1_script_instance.html) is a separate [script module](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_module.html).
 Modules dont share code, except things that are declared [shared](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script_shared.html), in which case it should only be defined once (don't include it several times).
 
-The scene's root node holds the `Main.as` script instance. Some `ScriptInstance`s use their own script file so they don't have to be included into `Main.as`.
+The game uses a single script module. The scene's root node holds the `Main.as` script instance.
+Any script that interacts with things from the main module should be part of it.
+Only if script are completely indepenent of the main module they can be used in a separate script module.
+
+
+## Editing script files
+
+[Atom](https://atom.io/) is an open source text editor that has [AngelScript syntax highlighting package](https://atom.io/packages/language-angelscript).
