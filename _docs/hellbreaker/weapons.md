@@ -25,7 +25,7 @@ You need to add an instance of your new `WeaponTypeInfo` derived class in the gl
 The second class derives from `Weapon`.
 
 Override the `fire` function to define what happens when the player fires the weapon.
-You can use [attacks]({{site.baseurl}}/docs/hellbreaker/attacks) from it.
+You can use things from [Attacks]({{site.baseurl}}/docs/hellbreaker/attacks) for your weapon.
 
 The `Weapon` class comes with some utility functions like `consume_ammo` and `muzzleFlash`.
 For extra weapon utlities you can use things from `Data/Scripts/WeaponUtility.as`, such as `FireCooldown_mixin` and `shoot_bullet`.

@@ -12,7 +12,8 @@ Game pickup classes that derive from it are located at `Data/Scripts/Pickups/` (
 ## Creating new pickups
 
 ##### Existing behavior
-You can create new pickups with different parameters for existing behavior by creating new node objects. For that you can use the [game editor]({{site.baseurl}}/docs/hellbreaker/game-editor).
+You can create new pickups with different parameters for existing behavior by creating new node objects.
+You can use the [game editor]({{site.baseurl}}/docs/hellbreaker/game-editor) for that.
 The node object should have a `RigidBody` component, and a `ScriptInstance` component that uses `Main.as` as the script file, and the class of the pickup you want to use. You can look at existing pickup node objects for example, they're located at `Data/Objects/Pickup/`.
 
 ##### New behavior

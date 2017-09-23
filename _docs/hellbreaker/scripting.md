@@ -12,9 +12,13 @@ Urho3D's scripting API:
 - [Urho3D scripting API](https://urho3d.github.io/documentation/HEAD/_script_a_p_i.html)
 - [Urho3D scripting documentation](https://urho3d.github.io/documentation/HEAD/_scripting.html)
 
+You should know how to program, this is not a programming tutorial.
+
+You should actively look at the game's script code when learning to see concrete examples.
+
 
 ### Entry Point
-The script entry point is the Main class, which can be found in `Data/Scripts/Main.as`.
+The script entry point is the `Main` class, which can be found in `Data/Scripts/Main.as`.
 The game script is executed when a level is loaded.
 
 
@@ -26,8 +30,11 @@ The `Player` class inherits from `Destructible`, which inherits from `Damageable
 
 `Destructible` is used for things that also have health and can die.
 
-The player's node has items `Inventory` component, which you can conviniently get via `Player::getInventory()`.
-The inventory is a map from item names to item amounts. The game uses it for items like weapon ammo and door keys, and it can be used for other things.
+You can get the player's inventory via `Player::inventory()`.
+The inventory is a map from item names to item amounts. The game uses it for items like weapon ammo and door keys, and it can be used for other things too.
+It has the following functions:
+- `uint[] item` access an item by its name
+- `void add_item(const String& item_type, const int amount)` to add to the amount of an item
 
 `Player` also have `WeaponSlots` member, which contains the player's weapons.
 There are 0 to 9 available slots, and weapons that occupy the same slot are ordered by their position value.

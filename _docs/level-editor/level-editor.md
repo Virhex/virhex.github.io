@@ -5,6 +5,7 @@ redirect_from: /docs/level-editor/index.html
 ---
 
 Welcome to the level editor's documentation.
+Here you can learn how to use the level editor.
 
 TODO:
 - views, 3D and grid
