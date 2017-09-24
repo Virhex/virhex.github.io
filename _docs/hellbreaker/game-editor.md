@@ -11,6 +11,3 @@ Make sure you set the resource path to the game's `Data` directory.
 You can set the resource path from `File -> Set resource path...`.
 
 [Editor instructions](https://urho3d.github.io/documentation/HEAD/_editor_instructions.html)
-
-TODO:
-- loading and saving nodes
