@@ -13,8 +13,8 @@ Here you can learn how to use the level editor.
 The level editor is a fast to learn and easy to use tool for creating levels.
 
 Level geometry is represented as shapes.
-Each shape has a faces.
-A face contains a polygon, and material properties such name, projection UV plane, and transformation.
+Each shape is made out of faces.
+A face contains a polygon, and material properties: name, projection UV plane, and transformation.
 
 Entities are used to describe things other than geometry, for example a light source or a moving shape.
 There are two types of entities:
@@ -30,9 +30,6 @@ Levels are saved in human readable JSON file with `.lvl` file extension.
 The level editor also has a general level compiler.
 Compiled levels use `.clvl` file extension.
 
-TODO:
-- object entities
-- material generator (shared with Hellbreaker, create shared document elsewhere)
 
 #### [Tools]({{site.baseurl}}/docs/level-editor/tools)
 #### [Controls]({{site.baseurl}}/docs/level-editor/controls)

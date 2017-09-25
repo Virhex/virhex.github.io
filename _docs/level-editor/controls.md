@@ -1,6 +1,6 @@
 ---
 title: Controls
-permalink: /docs/level-editor/Controls/
+permalink: /docs/level-editor/controls/
 ---
 
 ## General

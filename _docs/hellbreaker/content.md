@@ -55,6 +55,7 @@ When exporting geometries, make sure that `Position`, `Normal`, `UV`, and `Tange
 The `Levels` directory contains the level files. The game will recursively search inside it for compiled level files (`.clvl`).
 
 The [level editor]({{site.baseurl}}/docs/level-editor) is used to edit and create levels.
+It can opened from the launcher or `LevelEditor.exe` located inside the `Editor` directory next to the `Game` directory (not the one inside it).
 
 
 ## Special directories

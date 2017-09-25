@@ -23,7 +23,7 @@ It helps make development faster by removing the need to restart a level.
 ### Script Functions
 The game's script file is `Data/Scripts/Main.as`, and it's loaded when the game starts.
 
-There are special script functions the game will execute:
+There are special script functions the game will automatically execute:
 - `void Initialize()` is called when the game loads the script for the first time.
 - `void Start()` is called when a level starts, and after script reload.
 - `void Stop()` is called when a level stops and before script reload.

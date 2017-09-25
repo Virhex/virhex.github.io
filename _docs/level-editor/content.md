@@ -12,7 +12,7 @@ entity type defitions file. properties
 search paths config file
 
 ### Materials
-[material creator]({{site.baseurl}}/docs/material-creator)
+The level editor automatically generates materials for textures using the [material creator]({{site.baseurl}}/docs/material-creator).
 
 ### Models
 Urho3D's `.mdl` file format.
