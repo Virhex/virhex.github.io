@@ -3,6 +3,10 @@ title: Scripting
 permalink: /docs/hellbreaker/scripting/
 ---
 
+Note:
+- You should know how to program, this is not a programming tutorial.
+- You should actively look at the game's script code when learning to see concrete examples.
+
 Hellbreaker's scripting uses the AngelScript scripting language, and is built on top of Urho3D's API.
 AngelScript is a statically typed and compiled language, similar to C++/C#.
 
@@ -12,14 +16,19 @@ Urho3D's scripting API:
 - [Urho3D scripting API](https://urho3d.github.io/documentation/HEAD/_script_a_p_i.html)
 - [Urho3D scripting documentation](https://urho3d.github.io/documentation/HEAD/_scripting.html)
 
-You should know how to program, this is not a programming tutorial.
+Script files are automatically reloaded when they change.
+It helps make development faster by removing the need to restart a level.
 
-You should actively look at the game's script code when learning to see concrete examples.
 
+### Script Functions
+The game's script file is `Data/Scripts/Main.as`, and it's loaded when the game starts.
 
-### Entry Point
-The script entry point is the `Main` class, which can be found in `Data/Scripts/Main.as`.
-The game script is executed when a level is loaded.
+There are special script functions the game will execute:
+- `void Initialize()` is called when the game loads the script for the first time.
+- `void Start()` is called when a level starts, and after script reload.
+- `void Stop()` is called when a level stops and before script reload.
+- `void StartOnce()` is called when a level starts, before `Start`.
+- `void StopOnce()` is called when a level stops, after `Stop`.
 
 
 ### The Player
@@ -45,7 +54,6 @@ There are 0 to 9 available slots, and weapons that occupy the same slot are orde
 Each script file used by [ScriptInstance](https://urho3d.github.io/documentation/HEAD/class_urho3_d_1_1_script_instance.html) is a separate [script module](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_module.html).
 Modules dont share code, except things that are declared [shared](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script_shared.html), in which case it should only be defined once (don't include it several times).
 
-The game uses a single script module. The scene's root node holds the `Main.as` script instance.
 Any script that interacts with things from the main module should be part of it.
 Only if script are completely indepenent of the main module they can be used in a separate script module.
 
