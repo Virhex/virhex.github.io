@@ -20,15 +20,28 @@ Script files are automatically reloaded when they change.
 It helps make development faster by removing the need to restart a level.
 
 
+### Automatic Inclusion
+The game will automatically scan `Data/Scripts/` non-recursively for `.as` files, and will generate `Data/auto.as`, which `#include`s all of them.
+
+A guideline for organizing you scripts is to place all of your scripts in a directory inside `/Data/Scripts/`, and put a single script file in `/Data/Scripts/` to include your scripts.
+You should use the same name for your include file and the directory, to minimize the chance for name collisions. For example:
+```
+Data/Scripts/MyScripts/
+Data/Scripts/MyScripts.as
+```
+
 ### Script Functions
 The game's script file is `Data/Scripts/Main.as`, and it's loaded when the game starts.
 
-There are special script functions the game will automatically execute:
-- `void Initialize()` is called when the game loads the script for the first time.
-- `void Start()` is called when a level starts, and after script reload.
-- `void Stop()` is called when a level stops and before script reload.
-- `void StartOnce()` is called when a level starts, before `Start`.
-- `void StopOnce()` is called when a level stops, after `Stop`.
+There are special script functions the game will automatically look for in all [namespaces](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_global_namespace.html) and execute:
+- `void game_start()` is called when the game loads the script for the first time, and after a reload.
+- `void game_stop()` is called when the game shuts down.
+- `void level_start()` is called when a level starts, and after script reload.
+- `void level_stop()` is called when a level stops and before script reload.
+- `void level_start_once()` is called when a level starts, before `level_start`.
+- `void level_stop_once()` is called when a level stops, after `level_stop`.
+
+An organization guideline is to use the same name for your namespace as you use for your scripts directory, to minimize the chance for name collisions.
 
 
 ### The Player
