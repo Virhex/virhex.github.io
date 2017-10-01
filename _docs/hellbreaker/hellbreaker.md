@@ -18,3 +18,4 @@ You can open the game console by pressing `F1`, and get a list of commands with 
 #### [Weapons]({{ site.baseurl }}/docs/hellbreaker/weapons/)
 #### [Attacks]({{ site.baseurl }}/docs/hellbreaker/attacks/)
 #### [Monsters]({{ site.baseurl }}/docs/hellbreaker/monsters/)
+#### [Mods]({{ site.baseurl }}/docs/hellbreaker/mods/)

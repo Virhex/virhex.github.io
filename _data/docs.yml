@@ -12,6 +12,7 @@
   - hellbreaker/weapons
   - hellbreaker/attacks
   - hellbreaker/monsters
+  - hellbreaker/mods
   
 - title: Level Editor
   docs:
