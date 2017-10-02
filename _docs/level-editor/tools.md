@@ -3,15 +3,15 @@ title: Tools
 permalink: /docs/level-editor/tools/
 ---
 
-### Selection Tool
+#### Selection Tool
 Used to select objects to manipulate - move, rotate, scale, set properties.
 
 
-### Shape Tool
+#### Shape Tool
 Used to create shapes.
 
 
-### Entity Tool
+#### Entity Tool
 Used to create entities.
 
 To create a shape entity you need to have shapes selected before switching to the entity tool.
@@ -19,18 +19,18 @@ To create a shape entity you need to have shapes selected before switching to th
 Press `Enter` while hovering over a view to create an entity.
 
 
-### Object Tool
+#### Object Tool
 Used to create game object entities.
 
 
-### Material Tool
+#### Material Tool
 Used to set and edit shape face material.
 
 
-### Vertex Tool
+#### Vertex Tool
 Used to move the vertices of shapes.
 
 
-### Camera Tool
+#### Camera Tool
 Moves the camera to the clicked position on the view.
 Useful for quickly moving the camera somewhere instead of flying over.
