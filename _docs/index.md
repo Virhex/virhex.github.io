@@ -1,7 +1,6 @@
 ---
 title: Documentation
-permalink: /docs/home/
-redirect_from: /docs/index.html
+permalink: /docs/
 ---
 
 Documentation and tutorials for modding Virhex games.
