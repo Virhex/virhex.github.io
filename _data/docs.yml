@@ -16,3 +16,7 @@
   - level-editor/tools
   - level-editor/controls
   - level-editor/first-level
+
+- title: Other
+  docs:
+  - material-creator
