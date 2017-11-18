@@ -34,6 +34,7 @@ Data/Scripts/MyScripts.as
 The game's script file is `Data/Scripts/Main.as`, and it's loaded when the game starts.
 
 There are special script functions the game will automatically look for in all [namespaces](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_global_namespace.html) and execute:
+- `void game_start_once()` is called when the game loads the script for the first time, before `game_start`.
 - `void game_start()` is called when the game loads the script for the first time, and after a reload.
 - `void game_stop()` is called when the game shuts down.
 - `void level_start()` is called when a level starts, and after script reload.
