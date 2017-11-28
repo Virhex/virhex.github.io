@@ -38,7 +38,7 @@ There are special script functions the game will automatically look for in all [
 - `void game_start()` is called when the game loads the script for the first time, and after a reload.
 - `void game_stop()` is called when the game shuts down.
 - `void level_start()` is called when a level starts, and after script reload.
-- `void level_stop()` is called when a level stops and before script reload.
+- `void level_stop()` is called when a level stops, and before script reload.
 - `void level_start_once()` is called when a level starts, before `level_start`.
 - `void level_stop_once()` is called when a level stops, after `level_stop`.
 
