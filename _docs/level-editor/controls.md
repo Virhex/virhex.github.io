@@ -12,7 +12,7 @@ permalink: /docs/level-editor/controls/
 ## 3D view
 - Arrow keys to rotate the camera
 - `W`,`A`,`S`,`D` to move forward, left, back, right
-- Hold `Shift` + hold `Left mouse button` for mouse look
+- Hold `Space` + hold `Left mouse button` for mouse look
 
 ## Grid view
 - Mousewheel to zoom in and out
