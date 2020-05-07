@@ -1,0 +1,54 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import
+  {% if site.bootwatch %}
+    "bootswatch/{{site.bootwatch | downcase}}/variables",
+  {% endif %}
+
+  "bootstrap",
+
+  {% if site.bootwatch %}
+    "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
+  {% endif %}
+
+  "syntax-highlighting",
+  "jekyll-doc-theme"
+;
+
+
+.centered {
+  position: relative;
+  margin: 0 auto;
+  text-align: center; }
+
+#title {
+	padding: 1rem;
+	color: white;
+	font-size: 3rem;
+	#title img {
+		display:block; // prevent extra padding
+		position: relative;
+		margin: 0 auto;
+	}
+}
+
+#projects {
+	margin-top: 4rem; }
+
+.project {
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	padding: 10px;
+}
+.project:hover, .project:after {
+	filter: brightness(1.25);
+}
+.project img {
+	width: 100%;
+}

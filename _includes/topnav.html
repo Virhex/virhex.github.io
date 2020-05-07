@@ -8,18 +8,18 @@
         <span class="icon-bar"></span>
       </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">
-                <span><img src="{{site.baseurl}}/svg/virhex.svg" alt="{{ site.title }}"></span>
+                <span><img src="{{ "/svg/Virhex.svg" | relative_url }}" alt="{{ site.title }}"></span>
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/" | prepend: site.baseurl }}">Docs</a></li>
-<!--                <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>-->
+                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/" | relative_url }}">Docs</a></li>
+                <!-- <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">Blog</a></li> -->
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
                     <div class="form-group has-feedback">
-                        <input id="search-box" type="text" class="form-control" placeholder="Search...">
+                        <input id="search-box" type="search" class="form-control" placeholder="Search...">
                         <i class="fa fa-search form-control-feedback"></i>
                     </div>
                 </form>
