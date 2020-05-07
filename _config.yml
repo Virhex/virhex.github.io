@@ -3,20 +3,22 @@ title: Virhex
 email: your-email@domain.com
 description: >
   Virhex games and documentation
+lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://virhex.com # the base hostname & protocol for your site
 git_address: https://github.com/Virhex
 git_edit_address: https://github.com/Virhex/virhex.github.io/blob/master
 
-# theme options from https://bootswatch.com/
+# theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-bootwatch: paper
+bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-gems:
+# Plugins (previously gems:)
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
